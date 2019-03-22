@@ -54,7 +54,10 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-}
+    width: 800px;
+    margin: 0 auto;
+    }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -143,4 +146,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+nav{
+    display: flex;
+    margin-top: 30px;
+    width:70%;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color:black
+}
+
+.hero-image{
+    margin-bottom:20px;
+}
+
+/* about page styles--------------------------------- */
+
+
+.parent-card{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.card{
+    width:50%
 }
