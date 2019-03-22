@@ -114,6 +114,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .bottom-content {
@@ -175,13 +176,48 @@ nav a {
     margin-bottom:20px;
 }
 
+.boxes{
+ 
+   
+}
+
+.box1:hover{
+    transform: scale(1.2);
+}
+.box2:hover  {
+    transform: scale(1.2);
+}
+.box3:hover  {
+    transform: scale(1.2);
+}
+.box4:hover  {
+    transform: scale(1.2);
+}
+.box5:hover  {
+    transform: scale(1.2);
+}
+.box6:hover  {
+    transform: scale(1.2);
+}
+.box7:hover  {
+    transform: scale(1.2);
+}
+.box8:hover  {
+    transform: scale(1.2);
+}
+.box9:hover  {
+    transform: scale(1.2);
+}
+.box10:hover  {
+    transform: scale(1.2);
+}
 
 .box1{
     background-color:teal ;
+    
 }
 .box2{
     background-color:gold ;
-    border: 1px solid red;
 }
 .box3{
     background-color:cadetblue ;
@@ -233,4 +269,44 @@ button {
     border: 1px solid black;
     border-radius: 10px;
     margin:10px 0;
+}
+
+/* products page--------------- */
+
+.hero-image-products{
+    background-image: url("/img/new-images/bernard-hermant-663480-unsplash.jpg");
+    background-size: cover;
+    background-repeat: none;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 30px;
+    padding-bottom:30px;
+    border-bottom: 1px dashed black;
+}
+
+.card img {
+    height:350px;
+    width:350px;
+}
+
+/* media querries ------------------- */
+
+@media (max-width: 500px){
+    .card{
+        width: 100%;
+        margin: 10px;
+    }
+
+    body{
+        width: 500px;
+        
+    }
+
+    .hero-image img{
+        width:500;
+        height:300px;
+    }
+
+    .hero-image-products{
+    width: 500px;
 }
