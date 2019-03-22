@@ -176,12 +176,27 @@ nav a {
 
 /* about page styles--------------------------------- */
 
+.info{
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
 
 .parent-card{
     display:flex;
     flex-wrap:wrap;
+    justify-content: space-between
 
 }
 .card{
-    width:50%
+    width:45%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    padding: 8px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:10px 0;
 }
