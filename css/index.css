@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -107,7 +108,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+  
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -149,7 +150,7 @@ footer nav a {
 }
 
 
-
+/* index-page styles---------------------- */
 
 header{
     display:flex;
@@ -172,6 +173,39 @@ nav a {
 
 .hero-image{
     margin-bottom:20px;
+}
+
+
+.box1{
+    background-color:teal ;
+}
+.box2{
+    background-color:gold ;
+    border: 1px solid red;
+}
+.box3{
+    background-color:cadetblue ;
+}
+.box4{
+    background-color:coral ;
+}
+.box5{
+    background-color:crimson ;
+}
+.box6{
+    background-color:forestgreen ;
+}
+.box7{
+    background-color:darkorchid ;
+}
+.box8{
+    background-color:hotpink ;
+}
+.box9{
+    background-color:indigo ;
+}
+.box10{
+    background-color:dodgerblue ;
 }
 
 /* about page styles--------------------------------- */
