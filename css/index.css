@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -54,7 +55,10 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-}
+    width: 800px;
+    margin: 0 auto;
+    }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -104,12 +108,13 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+  
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .bottom-content {
@@ -143,4 +148,165 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* index-page styles---------------------- */
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+nav{
+    display: flex;
+    margin-top: 30px;
+    width:70%;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color:black
+}
+
+.hero-image{
+    margin-bottom:20px;
+}
+
+.boxes{
+ 
+   
+}
+
+.box1:hover{
+    transform: scale(1.2);
+}
+.box2:hover  {
+    transform: scale(1.2);
+}
+.box3:hover  {
+    transform: scale(1.2);
+}
+.box4:hover  {
+    transform: scale(1.2);
+}
+.box5:hover  {
+    transform: scale(1.2);
+}
+.box6:hover  {
+    transform: scale(1.2);
+}
+.box7:hover  {
+    transform: scale(1.2);
+}
+.box8:hover  {
+    transform: scale(1.2);
+}
+.box9:hover  {
+    transform: scale(1.2);
+}
+.box10:hover  {
+    transform: scale(1.2);
+}
+
+.box1{
+    background-color:teal ;
+    
+}
+.box2{
+    background-color:gold ;
+}
+.box3{
+    background-color:cadetblue ;
+}
+.box4{
+    background-color:coral ;
+}
+.box5{
+    background-color:crimson ;
+}
+.box6{
+    background-color:forestgreen ;
+}
+.box7{
+    background-color:darkorchid ;
+}
+.box8{
+    background-color:hotpink ;
+}
+.box9{
+    background-color:indigo ;
+}
+.box10{
+    background-color:dodgerblue ;
+}
+
+/* about page styles--------------------------------- */
+
+.info{
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.parent-card{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between
+
+}
+.card{
+    width:45%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    padding: 8px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:10px 0;
+}
+
+/* products page--------------- */
+
+.hero-image-products{
+    background-image: url("/img/new-images/bernard-hermant-663480-unsplash.jpg");
+    background-size: cover;
+    background-repeat: none;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 30px;
+    padding-bottom:30px;
+    border-bottom: 1px dashed black;
+}
+
+.card img {
+    height:350px;
+    width:350px;
+}
+
+/* media querries ------------------- */
+
+@media (max-width: 500px){
+    .card{
+        width: 100%;
+        margin: 10px;
+    }
+
+    body{
+        width: 500px;
+        
+    }
+
+    .hero-image img{
+        width:500;
+        height:300px;
+    }
+
+    .hero-image-products{
+    width: 500px;
 }
